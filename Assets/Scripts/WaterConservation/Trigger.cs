@@ -16,7 +16,7 @@ public class Trigger : MonoBehaviour
     }
 
 
-    void OnTriggerEnter2D(Collider2D collider)
+    void OnTriggerEnter(Collider collider)
     {
         Debug.Log("trigger");
         canvas.SetActive(true);
