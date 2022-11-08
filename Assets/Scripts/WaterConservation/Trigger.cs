@@ -13,14 +13,19 @@ public class Trigger : MonoBehaviour
     void Start()
     {
         canvas.SetActive(false);
+        Debug.Log(canvas.name);
     }
 
 
     void OnTriggerEnter(Collider collider)
     {
-        Debug.Log("trigger");
-        canvas.SetActive(true);
-        button.SetActive(false);
-        text.enabled = false;
+        if(Time.time > 2.0) //prevent initial trigger bug
+        {
+            Debug.Log("trigger");
+            canvas.SetActive(true);
+            button.SetActive(false);
+            text.enabled = false;
+        }
+        
     }
 }
