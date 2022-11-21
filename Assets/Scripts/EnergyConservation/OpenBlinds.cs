@@ -4,10 +4,14 @@ using UnityEngine;
 
 public class OpenBlinds : MonoBehaviour
 {
+
+   // BlindsTrigger blinds = new BlindsTrigger();
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "Player")
+
+        if (collision.tag == "Player" && BlindsTrigger.IsPlaying())
         {
+            BlindsTrigger.DecrementBlindCount();
             this.gameObject.SetActive(false);
         }
     }
