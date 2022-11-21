@@ -7500,9 +7500,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1576098753}
   - component: {fileID: 1576098752}
-  - component: {fileID: 1576098751}
+  - component: {fileID: 1576098758}
   - component: {fileID: 1576098755}
-  - component: {fileID: 1576098756}
   - component: {fileID: 1576098757}
   m_Layer: 0
   m_Name: Player
@@ -7511,20 +7510,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1576098751
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1576098750}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2897d099627eb424da95e751a62894f6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: {x: 50, y: 50}
-  rigidbody: {fileID: 0}
 --- !u!212 &1576098752
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7616,26 +7601,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &1576098756
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1576098750}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 836451f201cde4e7dad9c191c04b5589, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 10
-  jumpForce: 1500
-  ceilingCheck: {fileID: 821021047}
-  groundCheck: {fileID: 1164800147}
-  groundObject:
-    serializedVersion: 2
-    m_Bits: 64
-  checkRadius: 0.3
 --- !u!70 &1576098757
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -7652,6 +7617,26 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 1, y: 0.99999994}
   m_Direction: 0
+--- !u!114 &1576098758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1576098750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d61c7e5647a335d42ad415b60eba93e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed_2D: 10
+  jumpForce_2D: 1500
+  ceilingCheck_2D: {fileID: 821021047}
+  groundCheck_2D: {fileID: 1164800147}
+  groundObject_2D:
+    serializedVersion: 2
+    m_Bits: 64
+  checkRadius_2D: 0.3
 --- !u!1 &1582615239
 GameObject:
   m_ObjectHideFlags: 0
