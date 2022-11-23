@@ -11,11 +11,6 @@ public class GlobalControl : MonoBehaviour
     private float air = 100f;
     private float forrest = 100f;
 
-    // MINI-GAME SCORES
-    private int deforestation = 0;
-    private int waterConservation = 0;
-    private int energyConservation = 0;
-
     void Awake()
     {
         if(Instance == null)
@@ -47,32 +42,5 @@ public class GlobalControl : MonoBehaviour
     public float getForrest()
     {
         return Instance.forrest;
-    }
-
-    public void setDeforestationScore(int score)
-    {
-        Instance.deforestation = score;
-    }
-    public int getDeforestaionScore()
-    {
-        return Instance.deforestation;
-    }
-
-    public void setWaterConservationScore(int score)
-    {
-        Instance.waterConservation = score;
-    }
-    public int getWaterConservationScore()
-    {
-        return Instance.waterConservation;
-    }
-
-    public void setEnergyConservationScore(int score)
-    {
-        Instance.energyConservation = score;
-    }
-    public int getEnergyConservation()
-    {
-        return Instance.energyConservation;
     }
 }
