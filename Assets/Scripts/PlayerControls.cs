@@ -11,6 +11,7 @@ public class PlayerControls : MonoBehaviour
     void Start()
     {
         rigidbody = GetComponent<Rigidbody>();
+        rigidbody.freezeRotation = true;
     }
     
 
@@ -21,6 +22,11 @@ public class PlayerControls : MonoBehaviour
         float inputY = Input.GetAxis("Vertical");
 
         rigidbody.velocity = new Vector3(speed.x * inputX, speed.y * inputY, 0);
+
+        if (rigidbody.velocity.magnitude > 0)
+        {
+            rigidbody.rotation = Quaternion.LookRotation(rigidbody.velocity, Vector3.back);
+        }
     }
 
 }
