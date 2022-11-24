@@ -28,9 +28,13 @@ public class Player_Account : MonoBehaviour
         }
     }
 
-    public void setAccount(string user)
+    public void setAccount(string user, int totalScore, int defScore, int waterScore, int energyScore)
     {
-        username = user;
+        Instance.username = user;
+        Instance.gameScore = totalScore;
+        Instance.deforestation = defScore;
+        Instance.waterConservation = waterScore;
+        Instance.energyConservation = energyScore;
     }
     public string getUser()
     {

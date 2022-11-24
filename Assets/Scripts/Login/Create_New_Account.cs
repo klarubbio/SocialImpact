@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using System.Text.RegularExpressions;
 
 public class Create_New_Account : MonoBehaviour
 {
@@ -28,6 +29,16 @@ public class Create_New_Account : MonoBehaviour
     {
         createButton.onClick.AddListener(createAccount);
     }
+    void Update()
+    {
+        if(usernameCreate != null && passwordCreate != null && passwordConfirm != null)
+        {
+            if(usernameCreate.isFocused || passwordCreate.isFocused || passwordConfirm.isFocused)
+            {
+                createButton.GetComponent<Error_Message>().clearError();
+            }
+        }
+    }
 
     private void createAccount()
     {
@@ -37,25 +48,75 @@ public class Create_New_Account : MonoBehaviour
 
         if(!string.IsNullOrEmpty(username) && !string.IsNullOrEmpty(password) && !string.IsNullOrEmpty(confirmPassword))
         {
-            Debug.Log(username + " " + password + " " + confirmPassword);
+            if(validateUsername())
+            {
+                if(validatePassword())
+                {
+                    if(confirmPasswordEntry())
+                    {
+                        if(verifyUsername())
+                        {
+                            //allow login go to next scene
+                            Player_Account.Instance.setAccount(username, 0, 0, 0, 0);
+                            Debug.Log(username + " " + password + " " + confirmPassword);
+                            // add after merge to avoid conflicts
+                            //SceneManager.LoadScene(1);
+                        }
+                        else
+                        {
+                            //username already exists
+                            createButton.GetComponent<Error_Message>().dispayMessage(2);
+                        }
+                    }
+                    else
+                    {
+                        // passwords dont match
+                        createButton.GetComponent<Error_Message>().dispayMessage(1);
+                    }
+                }
+                else
+                {
+                    // invalid password
+                    createButton.GetComponent<Error_Message>().dispayMessage(0);
+                }
+            }
+            else
+            {
+                //invalid username
+                createButton.GetComponent<Error_Message>().dispayMessage(0);
+            }
+        }
+        else
+        {
+            createButton.GetComponent<Error_Message>().dispayMessage(3);
         }
     }
     
     private bool validateUsername()
     {
-        return false;
+        string pattern = @"^([a-zA-Z0-9-_]{3,15})$";
+        Regex rgx = new Regex(pattern);
+
+        return rgx.IsMatch(username);
     }
     private bool verifyUsername()
     {
-        return false;
+        // verify username doesnt exist
+        return true;
     }
 
     private bool validatePassword()
     {
-        return false;
+        string pattern = @"^([a-zA-Z0-9\!\@\#\$\%\-_]{5,20})$";
+        Regex rgx = new Regex(pattern);
+
+        return rgx.IsMatch(password);;
     }
     private bool confirmPasswordEntry()
     {
-        return false;
+        string pattern = @"^(" + password + ")$";
+        Regex rgx = new Regex(pattern);
+
+        return rgx.IsMatch(confirmPassword);
     }
 }
