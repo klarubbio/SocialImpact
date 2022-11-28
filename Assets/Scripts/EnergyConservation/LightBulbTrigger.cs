@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LaundryTrigger1 : MonoBehaviour
+public class LightBulbTrigger : MonoBehaviour
 {
     public GameObject canvas;
     private bool hasEntered = false;
@@ -14,18 +14,12 @@ public class LaundryTrigger1 : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "Player" && !hasEntered && !BlindsTrigger.IsPlaying() && !TurnOffLightsTrigger.IsPlaying())
+        if (collision.tag == "Player" && !BlindsTrigger.IsPlaying() && !hasEntered && !TurnOffLightsTrigger.IsPlaying())
         {
             Time.timeScale = 0;
             canvas.SetActive(true);
-            Debug.Log("Collide");
             hasEntered = true;
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

@@ -7,6 +7,7 @@ public class BlindsTrigger : MonoBehaviour
     public GameObject canvas;
     private static bool isPlaying = false;
     private static int count = 4;
+    private bool hasEntered = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -35,8 +36,9 @@ public class BlindsTrigger : MonoBehaviour
     }
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "Player")
+        if (collision.tag == "Player" && !TurnOffLightsTrigger.IsPlaying() && !hasEntered)
         {
+            hasEntered = true;
             Time.timeScale = 0;
             canvas.SetActive(true);
             isPlaying = true;

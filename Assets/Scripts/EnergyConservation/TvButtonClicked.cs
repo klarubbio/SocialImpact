@@ -25,6 +25,7 @@ public class TvButtonClicked : MonoBehaviour
         {
             screen.GetComponent<Renderer>().material.color = Color.black;
         }
+        Time.timeScale = 1;
         canvas.SetActive(false);
     }
 

@@ -15,8 +15,9 @@ public class TvTrigger : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.name == "Player" && !hasEntered && !BlindsTrigger.IsPlaying())
+        if (collision.gameObject.name == "Player" && !hasEntered && !BlindsTrigger.IsPlaying() && !TurnOffLightsTrigger.IsPlaying())
         {
+            Time.timeScale = 0;
             canvas.SetActive(true);
             hasEntered = true;
 

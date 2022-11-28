@@ -14,7 +14,7 @@ public class ThermostatTrigger : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "Player" && !hasEntered && !BlindsTrigger.IsPlaying())
+        if (collision.tag == "Player" && !hasEntered && !BlindsTrigger.IsPlaying() && !TurnOffLightsTrigger.IsPlaying())
         {
             Time.timeScale = 0;
             hasEntered = true;

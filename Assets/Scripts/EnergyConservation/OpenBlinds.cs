@@ -9,7 +9,7 @@ public class OpenBlinds : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
 
-        if (collision.tag == "Player" && BlindsTrigger.IsPlaying())
+        if (collision.tag == "Player" && BlindsTrigger.IsPlaying() && !TurnOffLightsTrigger.IsPlaying())
         {
             BlindsTrigger.DecrementBlindCount();
             this.gameObject.SetActive(false);
