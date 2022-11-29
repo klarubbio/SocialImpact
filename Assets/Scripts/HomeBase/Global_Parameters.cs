@@ -17,20 +17,13 @@ public class Global_Parameters : MonoBehaviour
     public Parameter_Bar forrestBar;
 
 
-    public void saveParamaters()
-    {
-        GlobalControl.Instance.water = WATER;
-        GlobalControl.Instance.air = AIR;
-        GlobalControl.Instance.forrest = FORREST;
-    }
-
     public void Start()
     {
         if(GlobalControl.Instance != null)
         {
-            WATER = GlobalControl.Instance.water;
-            AIR = GlobalControl.Instance.air;
-            FORREST = GlobalControl.Instance.forrest;
+            WATER = GlobalControl.Instance.getWater();
+            AIR = GlobalControl.Instance.getAir();
+            FORREST = GlobalControl.Instance.getForrest();
         }
 
         if(waterBar != null)
@@ -75,6 +68,6 @@ public class Global_Parameters : MonoBehaviour
             forrestBar.setParameter(FORREST);
         }
 
-        saveParamaters();
+        GlobalControl.Instance.saveParamaters(WATER, AIR, FORREST);
      }
 }
