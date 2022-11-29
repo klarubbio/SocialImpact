@@ -14,7 +14,7 @@ public class RightChoiceButton : MonoBehaviour
     public void OnItemSelected()
     {
         Debug.Log("correct");
-        exitText.text = "Correct! Using the cold setting on your washing machine conserves energy and water.";
+        exitText.text = "Correct!";
         exitButton.SetActive(true);
         exitText.enabled = true;
     }
