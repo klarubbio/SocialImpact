@@ -17051,7 +17051,6 @@ GameObject:
   - component: {fileID: 1576098758}
   - component: {fileID: 1576098755}
   - component: {fileID: 1576098757}
-  - component: {fileID: 1576098756}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -17150,26 +17149,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &1576098756
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1576098750}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 836451f201cde4e7dad9c191c04b5589, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 15
-  jumpForce: 1600
-  ceilingCheck: {fileID: 821021047}
-  groundCheck: {fileID: 1164800147}
-  groundObject:
-    serializedVersion: 2
-    m_Bits: 64
-  checkRadius: 0.3
 --- !u!70 &1576098757
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
