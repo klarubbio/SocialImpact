@@ -7,6 +7,7 @@ public class Trigger : MonoBehaviour
 {
     public GameObject canvas;
     public GameObject button;
+    public Scorekeeper s;
     public TMP_Text text;
     private bool active = true;
     private MeshRenderer renderer;
@@ -17,6 +18,7 @@ public class Trigger : MonoBehaviour
         canvas.SetActive(false);
         Debug.Log(canvas.name);
         renderer = GetComponent<MeshRenderer>();
+        s = GameObject.Find("watermaze").GetComponent<Scorekeeper>();
     }
 
     public void Enable()
@@ -37,6 +39,8 @@ public class Trigger : MonoBehaviour
             button.SetActive(false);
             text.enabled = false;
             renderer.enabled = false;
+
+            s.startQ(Time.timeAsDouble);
         }
         
     }
