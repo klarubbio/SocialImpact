@@ -17,7 +17,7 @@ public class Scorekeeper : MonoBehaviour
     void Start()
     {
         score = 0;
-        total = 2;//hardcoded to number of interactions possible
+        total = 5;//hardcoded to number of interactions possible
         found = 0;
     }
 

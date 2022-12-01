@@ -9,10 +9,20 @@ public class RightChoiceButton : MonoBehaviour
     private GameObject exitButton;
     public Scorekeeper s;
     public TMP_Text exitText;
+    private int presses = 0;
     
     void Start()
     {
         s = GameObject.Find("watermaze").GetComponent<Scorekeeper>();
+    }
+
+    public void PressProgress()
+    {
+        presses++;
+        if(presses == 10)
+        {
+            OnItemSelected();
+        }
     }
 
     public void OnItemSelected()
