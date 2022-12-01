@@ -22,9 +22,11 @@ public class WriteData : MonoBehaviour
                 AddText(fs, "Username,Password,Water Score,Energy Score,Deforestation Score");
             }
         }
-
+        /*
+        //tests
         WriteMyData("MyUser", "mypassword", "32", "57", "100");
         WriteMyData("AnotherUser", "mypassword", "32", "57", "100");
+        WriteMyData("lfg", "mypassword", "40", "100", "100");*/
 
     }
 
