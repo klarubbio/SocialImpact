@@ -759,6 +759,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canvas: {fileID: 812661635}
   button: {fileID: 410450748}
+  s: {fileID: 0}
   text: {fileID: 446838246}
 --- !u!65 &307757560
 BoxCollider:
@@ -891,6 +892,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   exitButton: {fileID: 886495191}
+  s: {fileID: 1690281769}
   exitText: {fileID: 582201204}
 --- !u!114 &403884094
 MonoBehaviour:
@@ -1303,6 +1305,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canvas: {fileID: 152279748}
   button: {fileID: 886495191}
+  s: {fileID: 1690281769}
   text: {fileID: 582201204}
 --- !u!65 &485396733
 BoxCollider:
@@ -2632,6 +2635,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   exitButton: {fileID: 410450748}
+  s: {fileID: 0}
   exitText: {fileID: 446838246}
 --- !u!1001 &1279449085
 PrefabInstance:
@@ -3470,6 +3474,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 9127120572191758296, guid: 1c680c06542ee7a4091d89f45c543d68, type: 3}
+--- !u!114 &1690281769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1690281760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd2b68ce48639bc40abcdac7278132e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1850656508
 GameObject:
   m_ObjectHideFlags: 0

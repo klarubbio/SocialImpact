@@ -7,9 +7,13 @@ public class RightChoiceButton : MonoBehaviour
 {
     [SerializeField]
     private GameObject exitButton;
+    public Scorekeeper s;
     public TMP_Text exitText;
     
-    
+    void Start()
+    {
+        s = GameObject.Find("watermaze").GetComponent<Scorekeeper>();
+    }
 
     public void OnItemSelected()
     {
@@ -17,5 +21,6 @@ public class RightChoiceButton : MonoBehaviour
         exitText.text = "Correct!";
         exitButton.SetActive(true);
         exitText.enabled = true;
+        s.endQ(Time.timeAsDouble);
     }
 }
