@@ -24,9 +24,9 @@ public class WriteData : MonoBehaviour
         }
         /*
         //tests
-        WriteMyData("MyUser", "mypassword", "32", "57", "100");
-        WriteMyData("AnotherUser", "mypassword", "32", "57", "100");
-        WriteMyData("lfg", "mypassword", "40", "100", "100");*/
+        WriteMyData("MyUser",  "32", "57", "100");
+        WriteMyData("AnotherUser", "32", "57", "100");
+        WriteMyData("lfg", "40", "100", "100");*/
 
     }
 
@@ -51,15 +51,15 @@ public class WriteData : MonoBehaviour
                     if(components[0] == username)
                     {
                         found = true;
-                        if (water != null && Int32.Parse(water) > Int32.Parse(components[2]))
+                        if (water != "" && Int32.Parse(water) > Int32.Parse(components[2]))
                         {
                             components[2] = water;
                         }
-                        if (energy != null && Int32.Parse(energy) > Int32.Parse(components[3]))
+                        if (energy != "" && Int32.Parse(energy) > Int32.Parse(components[3]))
                         {
                             components[3] = energy;
                         }
-                        if (deforest != null && Int32.Parse(deforest) > Int32.Parse(components[4]))
+                        if (deforest != "" && Int32.Parse(deforest) > Int32.Parse(components[4]))
                         {
                             components[4] = deforest;
                         }

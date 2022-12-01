@@ -22,5 +22,6 @@ public class RightChoiceButton : MonoBehaviour
         exitButton.SetActive(true);
         exitText.enabled = true;
         s.endQ(Time.timeAsDouble);
+        s.increment();
     }
 }
