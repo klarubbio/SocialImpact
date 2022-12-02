@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System.Text.RegularExpressions;
+using UnityEngine.SceneManagement;
 
 public class Create_New_Account : MonoBehaviour
 {
@@ -56,11 +57,9 @@ public class Create_New_Account : MonoBehaviour
                     {
                         if(verifyUsername())
                         {
-                            //allow login go to next scene
-                            Player_Account.Instance.setAccount(username, 0, 0, 0, 0);
+                            Player_Account.Instance.createAccount(username, password);
                             Debug.Log(username + " " + password + " " + confirmPassword);
-                            // add after merge to avoid conflicts
-                            //SceneManager.LoadScene(1);
+                            SceneManager.LoadScene(1);
                         }
                         else
                         {
@@ -101,8 +100,7 @@ public class Create_New_Account : MonoBehaviour
     }
     private bool verifyUsername()
     {
-        // verify username doesnt exist
-        return true;
+        return !(Player_Account.Instance.verifyAccount(username));
     }
 
     private bool validatePassword()
