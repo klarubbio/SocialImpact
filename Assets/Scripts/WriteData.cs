@@ -37,7 +37,7 @@ public class WriteData : MonoBehaviour
         fs.Write(info, 0, info.Length);
     }
 
-    public void WriteMyData(string username, string password, string water = "", string energy = "", string deforest = "")
+    public void WriteMyData(string username, string password, string water = "0", string energy = "0", string deforest = "0")
     {
         bool found = false;
         List<string> allLines = new List<string>();
@@ -52,15 +52,15 @@ public class WriteData : MonoBehaviour
                     if(components[0] == username)
                     {
                         found = true;
-                        if (water != "" && Int32.Parse(water) > Int32.Parse(components[2]))
+                        if (water != "0" && Int32.Parse(water) > Int32.Parse(components[2]))
                         {
                             components[2] = water;
                         }
-                        if (energy != "" && Int32.Parse(energy) > Int32.Parse(components[3]))
+                        if (energy != "0" && Int32.Parse(energy) > Int32.Parse(components[3]))
                         {
                             components[3] = energy;
                         }
-                        if (deforest != "" && Int32.Parse(deforest) > Int32.Parse(components[4]))
+                        if (deforest != "0" && Int32.Parse(deforest) > Int32.Parse(components[4]))
                         {
                             components[4] = deforest;
                         }
