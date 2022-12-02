@@ -22,11 +22,12 @@ public class WriteData : MonoBehaviour
                 AddText(fs, "Username,Password,Water Score,Energy Score,Deforestation Score");
             }
         }
-        /*
-        //tests
         WriteMyData("MyUser",  "32", "57", "100");
         WriteMyData("AnotherUser", "32", "57", "100");
-        WriteMyData("lfg", "40", "100", "100");*/
+        WriteMyData("lfg", "40", "100", "100");
+        GetPlayerData("MyUser");
+        GetPlayerData("nonexistentuser");
+
 
     }
 
@@ -77,5 +78,27 @@ public class WriteData : MonoBehaviour
         File.WriteAllLines(path, allLines);
 
 
+    }
+
+    public string[] GetPlayerData(string username)
+    {
+        using (FileStream fs = File.OpenRead(path))
+        {
+            using (var sr = new StreamReader(fs))
+            {
+                string line;
+                while ((line = sr.ReadLine()) != null)
+                {
+                    string[] components = line.Split(',');
+                    if (components[0] == username)
+                    {
+                        Debug.Log("Found " + username);
+                        return components;
+                    }
+                }
+            }
+        }
+        Debug.Log("user not found");
+        return new string[0];
     }
 }
