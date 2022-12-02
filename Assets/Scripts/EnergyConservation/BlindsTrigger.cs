@@ -5,6 +5,7 @@ using UnityEngine;
 public class BlindsTrigger : MonoBehaviour
 {
     public GameObject canvas;
+    public GameObject uiBlind;
     private static bool isPlaying = false;
     private static int count = 4;
     private bool hasEntered = false;
@@ -12,7 +13,9 @@ public class BlindsTrigger : MonoBehaviour
     void Start()
     {
         canvas.SetActive(false);
+        uiBlind.SetActive(false);
     }
+
     public static int BlindCount()
     {
         return count;
@@ -20,6 +23,12 @@ public class BlindsTrigger : MonoBehaviour
     public static void DecrementBlindCount()
     {
         --count;
+        Debug.Log("Blinds Remaining: " + count);
+        EnergyScore.Instance.openBlindsScore(5);
+        if(count == 0)
+        {
+            EnergyScore.Instance.completeTask();
+        }
     }
 
     public static bool IsPlaying()
@@ -41,8 +50,14 @@ public class BlindsTrigger : MonoBehaviour
             hasEntered = true;
             Time.timeScale = 0;
             canvas.SetActive(true);
+            uiBlind.SetActive(true);
             isPlaying = true;
         }
+    }
+
+    public int getBlindCount()
+    {
+        return count;
     }
 
 }
