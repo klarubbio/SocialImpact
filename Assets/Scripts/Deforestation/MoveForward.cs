@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MoveForward : MonoBehaviour
 {
-    public float speed = 40.0f;
+    private float speed = 15;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,7 +14,7 @@ public class MoveForward : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //speed = Random.Range(10, 20);
         transform.Translate(Vector3.forward * speed * Time.deltaTime);
-        
     }
 }

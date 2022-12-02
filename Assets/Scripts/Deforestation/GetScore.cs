@@ -1,9 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class DetectCollision : MonoBehaviour
+using TMPro;
+public class GetScore : MonoBehaviour
 {
+    public TMP_Text score;
     // Start is called before the first frame update
     void Start()
     {
@@ -13,12 +14,7 @@ public class DetectCollision : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        score.text = "Score: " + ScoreManager.GetScore();
     }
-    private void OnTriggerEnter(Collider other)
-    {
-        Destroy(gameObject);
-        Destroy(other.gameObject);
-        Debug.Log("collided with car");
-    }
+
 }

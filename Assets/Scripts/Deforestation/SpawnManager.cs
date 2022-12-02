@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SpawnManager : MonoBehaviour
 {
-    public GameObject[] animals;
+    public GameObject[] car;
     private float spawnX = 15;
     private float spawnZ = 20;
     private float startDelay = 2;
@@ -13,19 +13,13 @@ public class SpawnManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("SpawnRandomAnimal", startDelay, timeInterval);
+        InvokeRepeating("SpawnRandomCar", startDelay, timeInterval);
         
     }
-
-    // Update is called once per frame
-    void Update()
+    void SpawnRandomCar()
     {
-       
-    }
-    void SpawnRandomAnimal()
-    {
-        int animalIndex = Random.Range(0, animals.Length);
+        int carIndex = Random.Range(0, car.Length);
         Vector3 spawnPos = new Vector3(Random.Range(-spawnX, spawnX), 0, spawnZ);
-        Instantiate(animals[animalIndex], spawnPos, animals[animalIndex].transform.rotation);
+        Instantiate(car[carIndex], spawnPos, car[carIndex].transform.rotation);
     }
 }

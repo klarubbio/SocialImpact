@@ -21,7 +21,8 @@ public class DestroyOutOfBounds : MonoBehaviour
         }
         else if(transform.position.z < botBound)
         {
-            Debug.Log("Game over!");
+            //Debug.Log("Game over!");
+            ScoreManager.DecrementScore();
             Destroy(gameObject);
         }
         
