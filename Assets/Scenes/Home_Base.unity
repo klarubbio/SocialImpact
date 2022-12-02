@@ -469,7 +469,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MAX_PARAMETER: 100
-  value: 0
 --- !u!114 &269764036
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -560,7 +559,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MAX_PARAMETER: 100
-  value: 0
 --- !u!114 &404513003
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -617,7 +615,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &544731965
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -631,6 +629,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: {x: 50, y: 50}
+  rigidbody: {fileID: 0}
 --- !u!50 &544731966
 Rigidbody2D:
   serializedVersion: 4
@@ -1015,7 +1014,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MAX_PARAMETER: 100
-  value: 0
 --- !u!114 &1638110700
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1178,11 +1176,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56af0d7affd0eaf47a9a5d1658be91cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxWATER: 100
   waterBar: {fileID: 1638110699}
-  maxAIR: 100
   airBar: {fileID: 269764035}
-  maxFORREST: 100
   forrestBar: {fileID: 404513002}
 --- !u!1 &1873685644
 GameObject:
