@@ -101,4 +101,22 @@ public class WriteData : MonoBehaviour
         Debug.Log("user not found");
         return new string[0];
     }
+
+
+    public List<string[]> GetAllData()
+    {
+        List<string[]> alldata;
+        using (FileStream fs = File.OpenRead(path))
+        {
+            using (var sr = new StreamReader(fs))
+            {
+                string line;
+                while ((line = sr.ReadLine()) != null)
+                {
+                    alldata.Add(line.Split(','));
+                }
+            }
+        }
+        return alldata;
+    }
 }
