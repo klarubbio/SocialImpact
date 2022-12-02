@@ -6,7 +6,7 @@ using TMPro;
 
 public class  TimerScript : MonoBehaviour
 {
-    public float timeLeft = 5;
+    public float timeLeft = 60;
     public static bool timerOn = true;
     public TMP_Text timerTxt;
     public GameObject canvas;

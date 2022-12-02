@@ -8,6 +8,7 @@ public class ScoreManager : MonoBehaviour
 
     public static void DecrementScore()
     {
+        Debug.Log(score);
         if (score <= 0)
         {
             score = 0;
