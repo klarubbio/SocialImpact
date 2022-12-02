@@ -1,19 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class Player_Account : MonoBehaviour
 {
     public static Player_Account Instance;
 
-    private string username;
+    public string username;
 
-    private int gameScore;
+    public string[] databaseAccount;
+
+    public int gameScore = 0;
 
     // MINI-GAME SCORES
-    private int deforestation = 0;
-    private int waterConservation = 0;
-    private int energyConservation = 0;
+    public int waterConservation = 0;
+    public int energyConservation = 0;
+    public int deforestation = 0;
 
     void Awake()
     {
@@ -28,14 +31,12 @@ public class Player_Account : MonoBehaviour
         }
     }
 
-    public void setAccount(string user, int totalScore, int defScore, int waterScore, int energyScore)
+    public void createAccount(string user, string password)
     {
         Instance.username = user;
-        Instance.gameScore = totalScore;
-        Instance.deforestation = defScore;
-        Instance.waterConservation = waterScore;
-        Instance.energyConservation = energyScore;
+        Instance.GetComponent<WriteData>().WriteMyData(username, password);
     }
+
     public string getUser()
     {
         return Instance.username;
@@ -75,5 +76,35 @@ public class Player_Account : MonoBehaviour
     public int getEnergyConservation()
     {
         return Instance.energyConservation;
+    }
+
+    public bool verifyAccount(string uName)
+    {
+        string[] account = Instance.GetComponent<WriteData>().GetPlayerData(uName);
+
+        if(account.Length > 0)
+        {
+            databaseAccount = account;
+            return true;
+        }
+        return false;
+    }
+
+    public bool verifyPassword(string uPass)
+    {
+        if(uPass.Equals(databaseAccount[1]))
+        {
+            return true;
+        }
+
+        return false;
+    }
+
+    public void readData()
+    {
+        Instance.username = databaseAccount[0];
+        Instance.waterConservation = Int32.Parse(databaseAccount[2]);
+        Instance.energyConservation = Int32.Parse(databaseAccount[3]);
+        Instance.deforestation = Int32.Parse(databaseAccount[4]);
     }
 }
