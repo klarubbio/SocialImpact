@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System.Text.RegularExpressions;
+using UnityEngine.SceneManagement;
 
 public class Login : MonoBehaviour
 {
@@ -49,15 +50,11 @@ public class Login : MonoBehaviour
                 {
                     if(verifyUsername())
                     {
-                        // bring in data from database
                         if(verifyPassword())
                         {
-                            //allow login
-                            // set up player account game object
-                            Debug.Log(_usernameLogin + " " + _passwordLogin);
-                            // add log in scene to settings
-                            // add after merge to avoid conflicts
-                            //SceneManager.LoadScene(1);
+                            Player_Account.Instance.readData();
+                            Debug.Log("Successful Login: " + _usernameLogin + " " + _passwordLogin);
+                            SceneManager.LoadScene(1);
                         }
                         else
                         {
@@ -94,8 +91,7 @@ public class Login : MonoBehaviour
     }
     private bool verifyUsername()
     {
-        // verify username from database
-        return true;
+        return Player_Account.Instance.verifyAccount(usernameLogin.text);
     }
 
     private bool validatePassword()
@@ -107,7 +103,6 @@ public class Login : MonoBehaviour
     }
     private bool verifyPassword()
     {
-        // verify password from database
-        return true;
+        return Player_Account.Instance.verifyPassword(passwordLogin.text);
     }
 }
