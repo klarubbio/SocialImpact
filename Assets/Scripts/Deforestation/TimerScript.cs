@@ -7,11 +7,17 @@ using TMPro;
 public class  TimerScript : MonoBehaviour
 {
     public float timeLeft = 60;
-    public static bool timerOn = true;
+    public static bool timerOn = false;
     public TMP_Text timerTxt;
     public GameObject canvas;
 
     // Update is called once per frame
+
+    public void EnableTimer()
+    {
+        timerOn = true;
+    }
+
     void Update()
     {
         if (timerOn)
