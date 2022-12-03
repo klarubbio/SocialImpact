@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class PauseMenu : MonoBehaviour
+public class PauseMenuW : MonoBehaviour
 {
     [SerializeField] GameObject pauseMenu;
     // Start is called before the first frame update
     public void Pause()
     {
-        if (Leaderboard.hasClicked)
+        if (LeaderboardWater.hasClicked)
         {
             return;
         }

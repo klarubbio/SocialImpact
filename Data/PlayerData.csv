@@ -1,6 +1,7 @@
 Username,Password,Water Score,Energy Score,Deforestation Score
 ADMIN,CEN3031,1,2,3,
 someuser,somepass,10,0,0,
-MyUser,12345,32,57,100,
-AnotherUser,user1,32,57,100,
-lfg,lfglfg,40,100,100,
+MyUser,12345,57,100,100,
+AnotherUser,user1,57,100,100,
+lfg,lfglfg,100,100,100,
+hello,12345,0,0,0

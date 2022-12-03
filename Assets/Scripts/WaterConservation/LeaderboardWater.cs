@@ -1,20 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
-using UnityEngine.SocialPlatforms;
-using static System.Net.Mime.MediaTypeNames;
-using Unity.VisualScripting;
+using UnityEngine;
 
-
-public class Leaderboard : MonoBehaviour
+public class LeaderboardWater : MonoBehaviour
 {
     [SerializeField] GameObject display;
     public TMP_Text userScores;
     private WriteData data;
     public static bool hasClicked = false;
-    
+
 
     public void Start()
     {
@@ -38,15 +33,15 @@ public class Leaderboard : MonoBehaviour
 
         List<string[]> alldata = data.GetAllData();
         //int score;
-        
-       // Debug.Log(alldata.Count);
+
+        // Debug.Log(alldata.Count);
         var itemMoved = false;
         do
         {
             itemMoved = false;
-            for (int i = 1; i < alldata.Count-1; i++)
+            for (int i = 1; i < alldata.Count - 1; i++)
             {
-                if (int.Parse(alldata[i][3]) < int.Parse(alldata[i + 1][3]))
+                if (int.Parse(alldata[i][2]) < int.Parse(alldata[i + 1][2]))
                 {
                     string[] higherArray = alldata[i + 1];
                     alldata[i + 1] = alldata[i];
@@ -54,14 +49,14 @@ public class Leaderboard : MonoBehaviour
                     itemMoved = true;
                 }
             }
-            
+
         } while (itemMoved);
         int count = 0;
         for (int i = 1; i < alldata.Count; i++)
         {
             ++count;
             //userScores.text += alldata[i][0] + ": " + alldata[i][3];
-            userScores.text += i + ". " + alldata[i][0] + ": " + alldata[i][3] + "\n";
+            userScores.text += i + ". " + alldata[i][0] + ": " + alldata[i][2] + "\n";
             if (count == 10)
             {
                 break;

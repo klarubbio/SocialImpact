@@ -8,6 +8,7 @@ using UnityEngine;
 public class WriteData : MonoBehaviour
 {
     private string path;
+    
     //private FileStream fs;
     // Start is called before the first frame update
     void Start()
@@ -22,13 +23,13 @@ public class WriteData : MonoBehaviour
                 AddText(fs, "Username,Password,Water Score,Energy Score,Deforestation Score");
             }
         }
-        /*
+        // todo comment after im done
         WriteMyData("MyUser",  "32", "57", "100");
         WriteMyData("AnotherUser", "32", "57", "100");
         WriteMyData("lfg", "40", "100", "100");
-        GetPlayerData("MyUser");
-        GetPlayerData("nonexistentuser");
-        */
+       // GetPlayerData("MyUser");
+        //GetPlayerData("nonexistentuser");
+        
 
 
     }
@@ -104,10 +105,9 @@ public class WriteData : MonoBehaviour
         return new string[0];
     }
 
-
     public List<string[]> GetAllData()
     {
-        List<string[]> alldata;
+        List<string[]> alldata = new List<string[]>();
         using (FileStream fs = File.OpenRead(path))
         {
             using (var sr = new StreamReader(fs))
