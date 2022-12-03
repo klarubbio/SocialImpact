@@ -22,13 +22,14 @@ public class WriteData : MonoBehaviour
                 AddText(fs, "Username,Password,Water Score,Energy Score,Deforestation Score");
             }
         }
-        /*
+        
         WriteMyData("MyUser",  "32", "57", "100");
         WriteMyData("AnotherUser", "32", "57", "100");
         WriteMyData("lfg", "40", "100", "100");
         GetPlayerData("MyUser");
         GetPlayerData("nonexistentuser");
-        */
+        
+
 
 
     }
@@ -75,10 +76,12 @@ public class WriteData : MonoBehaviour
                 {
                     allLines.Add(username + "," + password + "," + water + "," + energy + "," + deforest);
                 }
+
             }
+
         }
         File.WriteAllLines(path, allLines);
-
+        
 
     }
 
@@ -101,6 +104,7 @@ public class WriteData : MonoBehaviour
             }
         }
         Debug.Log("user not found");
+        
         return new string[0];
     }
 

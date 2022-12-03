@@ -9,8 +9,12 @@ public class WaterLevel : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        gc = GameObject.Find("GlobalControl").GetComponent<GlobalControl>();
-        transform.Translate(Vector3.back*gc.getWater()/50);
+        Invoke("Activate", .1f);
+    }
 
+    void Activate()
+    {
+        gc = GameObject.Find("GlobalControl").GetComponent<GlobalControl>();
+        transform.Translate(Vector3.back * gc.getWater() / 50);
     }
 }
