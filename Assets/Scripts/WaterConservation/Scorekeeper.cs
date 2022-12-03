@@ -44,7 +44,7 @@ public class Scorekeeper : MonoBehaviour
     public void endQ(double eTime)
     {
         endTime = eTime;
-        score = score + (int)((100 * (15 - (endTime - startTime)))/15);
+        score = score + (int)((20 * (15 - (endTime - startTime)))/15);
         Debug.Log(score);
     }
 }
