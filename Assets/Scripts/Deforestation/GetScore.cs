@@ -15,6 +15,7 @@ public class GetScore : MonoBehaviour
     void Update()
     {
         score.text = "Score: " + ScoreManager.GetScore();
+        Player_Account.Instance.setDeforestationScore(ScoreManager.GetScore());
     }
 
 }

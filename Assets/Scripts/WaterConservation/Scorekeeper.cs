@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Scorekeeper : MonoBehaviour
 {
@@ -28,6 +29,7 @@ public class Scorekeeper : MonoBehaviour
             Debug.Log("done");
             w.WriteMyData("someuser", "somepass", water:score.ToString());
             //prompt to go back to home
+            SceneManager.LoadScene(1);
         }
     }
 
