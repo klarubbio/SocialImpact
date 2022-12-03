@@ -107,7 +107,7 @@ public class WriteData : MonoBehaviour
 
     public List<string[]> GetAllData()
     {
-        List<string[]> alldata;
+        List<string[]> alldata = new List<string[]>();
         using (FileStream fs = File.OpenRead(path))
         {
             using (var sr = new StreamReader(fs))
