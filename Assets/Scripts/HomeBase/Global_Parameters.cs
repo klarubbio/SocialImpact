@@ -32,19 +32,29 @@ public class Global_Parameters : MonoBehaviour
         WATER = 75f;
         AIR = 75f;
         FORREST = 75f;
+        float amt = 0;
 
-            float amt = ((WATER_RATIO / .75f) - 1f) * 100f;
+        if(WATER_RATIO != 0)
+        {
+            amt = ((WATER_RATIO / .75f) - 1f) * 100f;
             WATER += amt;
             FORREST += amt / 2;
-
-            amt = ((AIR_RATIO / .75f)-1f) * 100f;
+        }
+            
+        if (AIR_RATIO != 0)
+        {
+            amt = ((AIR_RATIO / .75f) - 1f) * 100f;
             AIR += amt;
             WATER += amt / 2;
-
-            amt = ((FOREST_RATIO / .75f)-1f) * 100f;
+        }
+            
+        if(FOREST_RATIO != 0)
+        {
+            amt = ((FOREST_RATIO / .75f) - 1f) * 100f;
             FORREST += amt;
             AIR += amt / 2;
-
+        }
+            
         if (waterBar != null)
         {
             waterBar.setParameter(WATER);

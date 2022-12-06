@@ -10,7 +10,7 @@ public class ForestSpawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Invoke("Activate", .1f);
+        Invoke("Activate", 1f);
     }
 
     void Activate()
