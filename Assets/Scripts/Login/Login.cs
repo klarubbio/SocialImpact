@@ -1,5 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
+using System.Text;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
@@ -15,6 +18,18 @@ public class Login : MonoBehaviour
 
     private string _usernameLogin = string.Empty;
     private string _passwordLogin = string.Empty;
+
+    private string DecodePass(string pass)
+    {
+        System.Text.UTF8Encoding encoder = new System.Text.UTF8Encoding();
+        System.Text.Decoder decoder = encoder.GetDecoder();
+        byte[] encoded = Convert.FromBase64String(pass);
+        int chars = decoder.GetCharCount(encoded, 0, encoded.Length);
+        char[] decoded = new char[chars];
+        decoder.GetChars(encoded, 0, encoded.Length, decoded, 0);
+        string result = new string(decoded);
+        return result;
+    }
 
     void Start()
     {
@@ -100,6 +115,6 @@ public class Login : MonoBehaviour
     }
     private bool verifyPassword()
     {
-        return Player_Account.Instance.verifyPassword(passwordLogin.text);
+        return Player_Account.Instance.verifyPassword(DecodePass(passwordLogin.text));
     }
 }

@@ -19,7 +19,9 @@ UC:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\Deforestation\GetSc
 RC:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\HomeBase\WaterLevel.csutf-8d
 [C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\EnergyConservation\TvTrigger.csutf-8k
 bC:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\WaterConservation\RightChoiceButton.csutf-8h
-_C:\Users\karin\Documents\GitHub\SocialImpact\Assets\EnergyGameScripts\PlayerControlsMiniGame.csutf-8a
+_C:\Users\karin\Documents\GitHub\SocialImpact\Assets\EnergyGameScripts\PlayerControlsMiniGame.csutf-8_
+VC:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\Deforestation\StartGame.csutf-8`
+WC:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\Deforestation\PauseMenuD.csutf-8a
 XC:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\Deforestation\MoveForward.csutf-8h
 _C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\EnergyConservation\Follow_Camera.csutf-8f
 ]C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\Deforestation\PlayerController.csutf-8^
@@ -44,10 +46,13 @@ XC:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\WaterConservation\T
 bC:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\WaterConservation\WrongChoiceButton.csutf-8e
 \C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\EnergyConservation\OpenBlinds.csutf-8_
 VC:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\Login\Change_Visability.csutf-8c
-ZC:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\EnergyConservation\OkButton.csutf-8`
-WC:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\Login\Create_New_Account.csutf-8b
+ZC:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\EnergyConservation\OkButton.csutf-8j
+aC:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\WaterConservation\LeaderboardWater.csutf-8`
+WC:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\Login\Create_New_Account.csutf-8i
+`C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\Deforestation\LeaderboardDeforest.csutf-8b
 YC:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\Deforestation\ScoreManager.csutf-8a
 XC:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\HomeBase\LoadSceneOnClick.csutf-8t
-kC:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\EnergyConservation\PlayerControlsMiniGame_2D.csutf-8h
+kC:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\EnergyConservation\PlayerControlsMiniGame_2D.csutf-8d
+[C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\WaterConservation\PauseMenuW.csutf-8h
 _C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\Deforestation\DestroyOutOfBounds.csutf-8j
 aC:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\EnergyConservation\End_Energy_Game.csutf-8

@@ -102,21 +102,17 @@ _C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\EnergyConservation\
 ..  
 .., 500 
 
-:: ’
+:: Ω
 aC:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\EnergyConservation\TvButtonClicked.cs
 
  
-  
-		   
+  
+		   
 
 
-  
+  
 
-	 
-
-	 
-
- ™
+ †
 RC:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\Login\Error_Message.cs
 
  
@@ -126,8 +122,8 @@ RC:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\Login\Error_Message
 
 
  "" 11 
- && 22 2
-  )) 88 LL (
+ && 22 (
+  88 LL (
   ++ ;; (
   ,, ?? (
     -- CC 
@@ -138,16 +134,14 @@ RC:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\Login\Error_Message
 66 2
 66" '99 == AA EE 
 
-JJ ∞
+JJ §
 ^C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\EnergyConservation\TurnOffLight.cs
 
  
-  
+  
 
-			 
-
- !
-- 6 ß
+ !
+- 6 ß
 WC:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\AnimationStateController.cs
 
  %(
@@ -216,18 +210,14 @@ RC:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\Home_PlayerControls
  
   
 
-		 ≥
+		 ß
 aC:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\EnergyConservation\LightbulbButton.cs
 
  
-  
-  
+  
+  
 
-
-
-	 
-
- Ú	
+ Ú	
 ]C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\EnergyConservation\EnergyScore.cs
   Ñ
  &   %% '' .. 00 77 << AA FF LL QQ YY aa bb jj kk qq vv zz 
@@ -302,7 +292,7 @@ aC:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\EnergyConservation\
 
 àà 
 
-çç È
+çç ›
 aC:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\EnergyConservation\LaundryTrigger1.cs
 
  
@@ -314,17 +304,13 @@ aC:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\EnergyConservation\
 	 
 
  !
-- 6 
-
-	 ë
+- 6 Ö
 UC:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\Deforestation\GetScore.cs
 
  
-  
+  
 
-			 
-
-	 ò
+	 ò
 RC:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\HomeBase\WaterLevel.cs
 
  
@@ -339,13 +325,13 @@ RC:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\HomeBase\WaterLevel
 [C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\EnergyConservation\TvTrigger.cs
 
  
-   
- 6 @ 
+   
+ 6 @ 
 
-	 
+			 
 
- !
-- 6 û
+ !
+- 6 û
 bC:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\WaterConservation\RightChoiceButton.cs
 
  
@@ -388,38 +374,53 @@ _C:\Users\karin\Documents\GitHub\SocialImpact\Assets\EnergyGameScripts\PlayerCon
 )) && 
 33  
 >>  
-GG 77 ;; î
-XC:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\Deforestation\MoveForward.cs
+GG 77 ;; û
+VC:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\Deforestation\StartGame.cs
 
- 
- . 3
+ 
+  
 
 			 
 
-	 —
+	 
+
+ ø
+WC:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\Deforestation\PauseMenuD.cs
+
+ 
+		  )  
+
+ 
+
+ 
+
+ 
+   &à
+XC:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\Deforestation\MoveForward.cs
+
+ 
+ . 3
+
+	 ≈
 _C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\EnergyConservation\Follow_Camera.cs
 
  
- * 0= C
- \ b
+ * 0= C
+ \ b
 
-	 
-
-	 
- > Iç
+	 
+ > IÅ
 ]C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\Deforestation\PlayerController.cs
 
  
-   , ;
- N S2
-		 $ *. 4# )- 3
+   , ;
+ N S2
+		 $ *. 4# )- 3
 
 
- '$$ )$$? P
+ '   )  ? P
 
-	 
-
-	 Á
+	 Á
 UC:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\HomeBase\ForestSpawner.cs
 
  
@@ -512,37 +513,27 @@ YC:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\HomeBase\Global_Par
     
 
  Z
-$$ %% && (( )) ** ,, -- .. õ
+$$ %% && (( )) ** ,, -- .. è
 _C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\EnergyConservation\LaundryButton.cs
 
  
-  
+  
 
-	 
-
- ´
+ ü
 cC:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\EnergyConservation\ThermostatButtons.cs
 
  
-  
+  
 
   
 
-
-
-	 
-
- §
+ å
 \C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\Deforestation\DetectCollision.cs
 
  
 
-	 
-
-	 
-
- 
-) . √
+ 
+) . √
 [C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\EnergyConservation\PauseMenu.cs
 
  
@@ -570,62 +561,62 @@ HC:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\WriteData.cs
  P
 
 
-   . 2//, 0SS ZZ- 1ss- 1
+   . 2--, 0QQ XX- 1qq- 1
 
-	 
-  
-%%  
-%%+ -(( 
+	 
+  
+##  
+##+ -&& 
 
-%%6 ;''6 ;
-'' (( (( (
-++    
-++# +77( 0MM! )
-++4 <MM2 :2
-++E J:: !::8 =<<, 1MMC H2
-++Y _>> ">>9 ?@@, 2MMQ W2
-++n vBB $BB; CDD, 4MM` h
--- 99 KK (
-.. HH MM SS! )
-// 11- /
-11 44  <
-33 44 66% )FF HH! %II "Z
-66 "77 !::M W<< &>>O Y@@ &BBS ]DD &FF0 :
-XX !  
-XX) 1bb) 1dd- 5
-ZZ \\- /
-\\ __ !
-^^ __ aa* .
-aa 'bb "ee )
+##6 ;%%6 ;
+%% && && (
+))    
+))# +55( 0KK! )
+))4 <KK2 :2
+))E J88 !888 =::, 1KKC H2
+))Y _<< "<<9 ?>>, 2KKQ W2
+))n v@@ $@@; CBB, 4KK` h
+++ 77 II (
+,, FF KK QQ! )
+-- //- /
+// 22  <
+11 22 44% )DD FF! %GG "Z
+44 "55 !88M W:: &<<O Y>> &@@S ]BB &DD0 :
+VV !  
+VV) 1``) 1bb- 5
+XX ZZ- /
+ZZ ]] !
+\\ ]] __* .
+__ '`` "cc )
 
-pp $
-rr zz ~~ 
-ss uu- /
-uu xx !
-ww xx zz  $¯
+nn $
+pp xx || 
+qq ss- /
+ss vv !
+uu vv xx  $¯
 JC:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\Login\Login.cs
 
 		 <
- (  !! ** &^^5 B<
- ( $ 1!!* 7++ &jj6 CP
-  ## == 'BB #GG LL QQ 2
- !** --! /88= KZZ )2
- !++ --J X88T bff )
+ (  @ M'' &[[5 B<
+ ( % 2[ h(( &gg6 CP
+  !! :: '?? #DD II NN 2
+ !'' **! /55= KWW )2
+ !(( **J X55T bcc )
 
 	 
 
 	 
 
 	 
-(( ( 4
-UU !// 
-WW XX %
-XX ZZ 
-\\ 33 %
-aa !11 #
-cc dd %
-dd ff 
-hh 55 )∑
+%% ( 4
+RR !,, 
+TT UU %
+UU WW 
+YY 00 %
+^^ !.. #
+`` aa %
+aa cc 
+ee 22 )∑
 [C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\Global_Control\GlobalControl.cs
   d
   (      $$ (( ,, 
@@ -725,60 +716,91 @@ bC:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\WaterConservation\W
 \C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\EnergyConservation\OpenBlinds.cs
 
  
-3 7 
+3 7 
 
-
-
- !
-
-
-- 6 º
+		 !
+		- 6 ∞
 VC:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\Login\Change_Visability.cs
 
  (
 
 
-    
-  
+    
+  
 
-	 
-
-	 ñ
+	 ä
 ZC:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\EnergyConservation\OkButton.cs
 
  
-  
+  
 
-			 
+
+
+ Ö
+aC:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\WaterConservation\LeaderboardWater.cs
 
- ≠
+ (
+  '     
+		  ;; 
+
+
+  ""! %(
+ !   
+
+ 
+
+ n
+"" **  ',, %,,9 @..+ 2// //% ,00 77 #;;* 1;;A H(
+&& )) 11 55 Z
+** ** **3 4,,& ',,A B..3 4// //- .00 
+.. (00! ,
+66 99 << <
+77 77 77+ ,;;  ;;2 3;;I J∞
 WC:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\Login\Create_New_Account.cs
 
 		 2
- ) ## %% .. !2
- ) ##% 3%%+ 9// !2
- * ##? N%%G V00 )P
-  '' CC (II $OO  UU ZZ F
- .. 22! )<<B J==& .cc #gg7 ?F
- // 22D L<<L T==7 ?oo #ss! )2
- "00 22g v==H Wvv *
+ ) ## ##] k++ !3
+ ) ##& 4	##y á,, !4
+ * ##@ O
+##ï §-- )P
+  %% @@ (FF $LL  RR WW F
+ ++ //! )99B J::& .`` #dd7 ?F
+ ,, //D L99L T::7 ?ll #pp! )2
+ "-- //g v::H Wss *
 
 	 
 
 	 
 
 !!	 
-,, ) 6
-^^ !44 
-`` aa %
-aa cc 
-ee :: )
-jj !66 #
-ll mm %
-mm oo 
-qq %88 +
-ss tt %
-tt vv Ω
+)) ) 6
+[[ !11 
+]] ^^ %
+^^ `` 
+bb 77 )
+gg !33 #
+ii jj %
+jj ll 
+nn %55 +
+pp qq %
+qq ss Ñ
+`C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\Deforestation\LeaderboardDeforest.cs
+
+  (
+  '  %% 
+  ?? 
+  ''! %(
+ !    ## 
+
+ 
+
+ n
+'' //  '11 %119 @33+ 244 44% ,55 << #??* 1??A H(
+++ .. 66 :: Z
+// // //3 411& '11A B333 444 44- .55 
+33 (55! ,
+;; >> @@ <
+<< << <<+ ,??  ??2 3??I JΩ
 YC:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\Deforestation\ScoreManager.cs
 
  <
@@ -821,18 +843,27 @@ kC:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\EnergyConservation\
 )) && 
 33  
 >>  
-GG 77 ;; ±
-_C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\Deforestation\DestroyOutOfBounds.cs
+GG 77 ;; √
+[C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\WaterConservation\PauseMenuW.cs
 
- 
- " *
- ' /
+ 
+  )  
 
 
 
-	 
+ 
 
-	 È
+ 
+
+ 
+   &•
+_C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\Deforestation\DestroyOutOfBounds.cs
+
+ 
+ " *
+ ' /
+
+	 È
 aC:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\EnergyConservation\End_Energy_Game.cs
 
  

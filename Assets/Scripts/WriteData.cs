@@ -8,6 +8,28 @@ using UnityEngine;
 public class WriteData : MonoBehaviour
 {
     private string path;
+
+    private string EncodePass(string pass)
+    {
+        byte[] bytes = new byte[pass.Length];
+        bytes = System.Text.Encoding.UTF8.GetBytes(pass);
+        string encoded = Convert.ToBase64String(bytes);
+        return encoded;
+    }
+
+    private string DecodePass(string pass)
+    {
+        System.Text.UTF8Encoding encoder = new System.Text.UTF8Encoding();
+        System.Text.Decoder decoder = encoder.GetDecoder();
+        byte[] encoded = Convert.FromBase64String(pass);
+        int chars = decoder.GetCharCount(encoded, 0, encoded.Length);
+        char[] decoded = new char[chars];
+        decoder.GetChars(encoded, 0, encoded.Length, decoded, 0);
+        string result = new string(decoded);
+        return result;
+    }
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,9 +48,11 @@ public class WriteData : MonoBehaviour
         WriteMyData("lfg", "40", "100", "100");
         GetPlayerData("MyUser");
         GetPlayerData("nonexistentuser");
-        
 
 
+        string res = EncodePass("mypass34732");
+        Debug.Log("the password is:" + res);
+        Debug.Log(DecodePass(res));
 
     }
 
@@ -72,7 +96,7 @@ public class WriteData : MonoBehaviour
                 }
                 if (!found)
                 {
-                    allLines.Add(username + "," + password + "," + water + "," + energy + "," + deforest);
+                    allLines.Add(username + "," + EncodePass(password) + "," + water + "," + energy + "," + deforest);
                 }
 
             }
