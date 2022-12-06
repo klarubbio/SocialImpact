@@ -1435,7 +1435,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 274246711}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -4361,6 +4361,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2724883415705973361, guid: e4a943bb8200240268d0a062fce95b59, type: 3}
+      propertyPath: numObject
+      value: 
+      objectReference: {fileID: 1179685972}
     - target: {fileID: 2724883415714941362, guid: e4a943bb8200240268d0a062fce95b59, type: 3}
       propertyPath: leaderboard
       value: 
@@ -4453,8 +4457,31 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pause_Leaderboard energy
       objectReference: {fileID: 0}
+    - target: {fileID: 2724883416509132485, guid: e4a943bb8200240268d0a062fce95b59, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2724883417548798670, guid: e4a943bb8200240268d0a062fce95b59, type: 3}
+      propertyPath: numObject
+      value: 
+      objectReference: {fileID: 2073952649}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e4a943bb8200240268d0a062fce95b59, type: 3}
+--- !u!1 &274246711 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2724883416509132485, guid: e4a943bb8200240268d0a062fce95b59, type: 3}
+  m_PrefabInstance: {fileID: 274246710}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &274246712 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2724883415705973363, guid: e4a943bb8200240268d0a062fce95b59, type: 3}
+  m_PrefabInstance: {fileID: 274246710}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &274246713 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2724883417548798704, guid: e4a943bb8200240268d0a062fce95b59, type: 3}
+  m_PrefabInstance: {fileID: 274246710}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &279334227
 GameObject:
   m_ObjectHideFlags: 0
@@ -17843,7 +17870,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1371863740}
-  uiBlind: {fileID: 0}
+  uiBlind: {fileID: 274246712}
 --- !u!1 &1185136630
 GameObject:
   m_ObjectHideFlags: 0
@@ -28585,7 +28612,7 @@ MonoBehaviour:
   scoreText: {fileID: 1423708342}
   endGame: {fileID: 1691792555}
   player: {fileID: 1576098750}
-  gameUI: {fileID: 0}
+  gameUI: {fileID: 274246711}
 --- !u!1 &1831593233
 GameObject:
   m_ObjectHideFlags: 0
@@ -39569,7 +39596,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1098094505}
-  uiLight: {fileID: 0}
+  uiLight: {fileID: 274246713}
 --- !u!61 &2073952654
 BoxCollider2D:
   m_ObjectHideFlags: 0
