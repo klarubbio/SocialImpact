@@ -1783,13 +1783,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 599fdaac98919f740949be0aef525dfe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  username: 
-  password: 
-  databaseAccount: []
-  gameScore: 0
-  waterConservation: 0
-  energyConservation: 0
-  deforestation: 0
 --- !u!4 &890659758
 Transform:
   m_ObjectHideFlags: 0
@@ -2865,6 +2858,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 418
       objectReference: {fileID: 0}
+    - target: {fileID: 5079921463803652662, guid: ad0367039425c4702948a324c0c82c79, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5079921464086893827, guid: ad0367039425c4702948a324c0c82c79, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 862
@@ -3109,11 +3106,11 @@ RectTransform:
   m_Father: {fileID: 1708720358}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -290.11, y: 189.76}
-  m_SizeDelta: {x: 212.7851, y: 66.477}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 36.60742, y: -51.761505}
+  m_SizeDelta: {x: 212.7851, y: 66.47699}
+  m_Pivot: {x: 0, y: 1}
 --- !u!114 &1359283979
 MonoBehaviour:
   m_ObjectHideFlags: 0
