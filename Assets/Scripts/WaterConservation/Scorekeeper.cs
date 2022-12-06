@@ -13,6 +13,7 @@ public class Scorekeeper : MonoBehaviour
     int found;
 
     public WriteData w;
+    Player_Account pa;
 
     // Start is called before the first frame update
     void Start()
@@ -20,6 +21,8 @@ public class Scorekeeper : MonoBehaviour
         score = 0;
         total = 5;//hardcoded to number of interactions possible
         found = 0;
+
+        pa = GameObject.Find("PLAYER_ACCOUNT").GetComponent<Player_Account>();
     }
 
     void Update()
@@ -27,7 +30,7 @@ public class Scorekeeper : MonoBehaviour
         if(total == found)
         {
             Debug.Log("done");
-            w.WriteMyData("someuser", "somepass", water:score.ToString());
+            pa.setWaterConservationScore((int)score);
             //prompt to go back to home
             SceneManager.LoadScene(1);
         }
