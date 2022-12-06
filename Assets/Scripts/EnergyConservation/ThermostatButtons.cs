@@ -6,11 +6,7 @@ public class ThermostatButtons : MonoBehaviour
 {
     public GameObject canvas;
     public GameObject buttonName;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    
 
     public void OnClick()
     {

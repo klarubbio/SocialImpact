@@ -32,12 +32,9 @@ public class Create_New_Account : MonoBehaviour
     }
     void Update()
     {
-        if(usernameCreate != null && passwordCreate != null && passwordConfirm != null)
+        if((usernameCreate != null && passwordCreate != null && passwordConfirm != null) && (usernameCreate.isFocused || passwordCreate.isFocused || passwordConfirm.isFocused))
         {
-            if(usernameCreate.isFocused || passwordCreate.isFocused || passwordConfirm.isFocused)
-            {
-                createButton.GetComponent<Error_Message>().clearError();
-            }
+            createButton.GetComponent<Error_Message>().clearError();
         }
     }
 

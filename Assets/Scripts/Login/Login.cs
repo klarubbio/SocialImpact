@@ -28,12 +28,9 @@ public class Login : MonoBehaviour
     
     void Update()
     {
-        if(usernameLogin != null || passwordLogin != null)
+        if((usernameLogin != null || passwordLogin != null) && (usernameLogin.isFocused || passwordLogin.isFocused))
         {
-            if(usernameLogin.isFocused || passwordLogin.isFocused)
-            {
-                loginButton.GetComponent<Error_Message>().clearError();
-            }
+            loginButton.GetComponent<Error_Message>().clearError();
         }
     }
 

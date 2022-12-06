@@ -9,11 +9,7 @@ public class Change_Visability : MonoBehaviour
 {
     public TMP_InputField input;
     public Toggle visChange;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    
 
     // Update is called once per frame
     void Update()

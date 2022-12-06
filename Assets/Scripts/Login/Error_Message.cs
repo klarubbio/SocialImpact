@@ -38,7 +38,7 @@ public class Error_Message : MonoBehaviour
                 message_4.SetActive(true);
             }
         }
-        else if(!display)
+        else
         {
             m1 = false;
             m2 = false;
