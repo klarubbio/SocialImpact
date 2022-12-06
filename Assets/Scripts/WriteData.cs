@@ -20,12 +20,9 @@ public class WriteData : MonoBehaviour
                 AddText(fs, "Username,Password,Water Score,Energy Score,Deforestation Score");
             }
         }
-        
-        WriteMyData("MyUser",  "32", "57", "100");
-        WriteMyData("AnotherUser", "32", "57", "100");
-        WriteMyData("lfg", "40", "100", "100");
-        GetPlayerData("MyUser");
-        GetPlayerData("nonexistentuser");
+
+        WriteMyData("myuser", "pass", "10", "10", "10");
+        WriteMyData("myuser", "pass", "20", "2", "2");
         
 
 
@@ -50,7 +47,7 @@ public class WriteData : MonoBehaviour
                 while((line = sr.ReadLine()) != null)
                 {
                     var components = line.Split(',');
-                    if(components[0] == username)
+                    if(components[0].Equals(username))
                     {
                         found = true;
                         if (water != "0" && Int32.Parse(water) > Int32.Parse(components[2]))
