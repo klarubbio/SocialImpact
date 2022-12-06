@@ -7,17 +7,17 @@ public class Player_Account : MonoBehaviour
 {
     public static Player_Account Instance;
 
-    public string username;
-    public string password;
+    private string username;
+    private string password;
 
-    public string[] databaseAccount;
+    private string[] databaseAccount;
 
-    public int gameScore = 0;
+    private int gameScore = 0;
 
     // MINI-GAME SCORES
-    public int waterConservation = 0;
-    public int energyConservation = 0;
-    public int deforestation = 0;
+    private int waterConservation = 0;
+    private int energyConservation = 0;
+    private int deforestation = 0;
 
     void Awake()
     {
