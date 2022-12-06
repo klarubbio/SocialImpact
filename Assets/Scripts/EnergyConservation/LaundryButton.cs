@@ -7,11 +7,7 @@ public class LaundryButton : MonoBehaviour
 {
     public GameObject canvas;
    
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    
     public void OnClick()
     {
         Time.timeScale = 1;

@@ -1,0 +1,74 @@
+﻿C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\Deforestation\SpawnManager.cs
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\PlayerControls.cs
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\Login\Player_Account.cs
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\EnergyConservation\BlindsTrigger.cs
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\EnergyConservation\TvButtonClicked.cs
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\Login\Error_Message.cs
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\EnergyConservation\TurnOffLight.cs
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\AnimationStateController.cs
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\EnergyConservation\ThermostatTrigger.cs
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\EnergyConservation\LightBulbTrigger.cs
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\HomeBase\Parameter_Bar.cs
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\Home_PlayerControls.cs
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\WaterConservation\ExitButton.cs
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\EnergyConservation\LightbulbButton.cs
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\EnergyConservation\EnergyScore.cs
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\EnergyConservation\LaundryTrigger1.cs
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\Deforestation\GetScore.cs
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\HomeBase\WaterLevel.cs
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\EnergyConservation\TvTrigger.cs
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\WaterConservation\RightChoiceButton.cs
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\EnergyGameScripts\PlayerControlsMiniGame.cs
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\Deforestation\MoveForward.cs
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\EnergyConservation\Follow_Camera.cs
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\Deforestation\PlayerController.cs
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\HomeBase\ForestSpawner.cs
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\WaterConservation\Scorekeeper.cs
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\Deforestation\TimerScript.cs
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\Text.cs
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\EnergyConservation\Animation_Controller_2D.cs
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\HomeBase\Global_Parameters.cs
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\EnergyConservation\LaundryButton.cs
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\EnergyConservation\ThermostatButtons.cs
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\Deforestation\DetectCollision.cs
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\EnergyConservation\PauseMenu.cs
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\WaterConservation\WashingMachineTrigger.cs
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\WriteData.cs
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\Login\Login.cs
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\Global_Control\GlobalControl.cs
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\EnergyConservation\TurnOffLightsTrigger.cs
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\EnergyConservation\Leaderboard.cs
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\WaterConservation\Trigger.cs
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\EnergyConservation\Task_Display.cs
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\WaterConservation\WrongChoiceButton.cs
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\EnergyConservation\OpenBlinds.cs
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\Login\Change_Visability.cs
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\EnergyConservation\OkButton.cs
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\Login\Create_New_Account.cs
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\Deforestation\ScoreManager.cs
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\HomeBase\LoadSceneOnClick.cs
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\EnergyConservation\PlayerControlsMiniGame_2D.cs
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\Deforestation\DestroyOutOfBounds.cs
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Scripts\EnergyConservation\End_Energy_Game.cs
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\TextMesh Pro\Shaders\TMPro.cginc
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\Course Library\_Source_Files\_LICENSE.txt
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\TextMesh Pro\Shaders\TMP_SDF.shader
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader
+C:\Users\karin\Documents\GitHub\SocialImpact\Assets\TextMesh Pro\Shaders\TMP_Sprite.shader

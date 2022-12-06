@@ -9,11 +9,7 @@ public class PlayerController : MonoBehaviour
     public float xRange = 20.0f;
     public GameObject projecticlePrefab;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    
 
     // Update is called once per frame
     void Update()

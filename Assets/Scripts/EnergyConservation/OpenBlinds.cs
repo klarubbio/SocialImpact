@@ -6,7 +6,6 @@ using UnityEngine;
 public class OpenBlinds : MonoBehaviour
 {
     public UnityEngine.Rendering.Universal.Light2D room;
-   // BlindsTrigger blinds = new BlindsTrigger();
     private void OnTriggerEnter2D(Collider2D collision)
     {
 

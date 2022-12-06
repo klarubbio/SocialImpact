@@ -8,13 +8,11 @@ using UnityEngine;
 public class WriteData : MonoBehaviour
 {
     private string path;
-    //private FileStream fs;
     // Start is called before the first frame update
     void Start()
     {
         //create file
         path = "./Data/PlayerData.csv";
-        //fs = new FileStream(path, FileMode.OpenOrCreate, FileAccess.ReadWrite, FileShare.None);
         if (!File.Exists(path))
         {
             using(FileStream fs = File.Create(path))
