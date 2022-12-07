@@ -10,6 +10,7 @@ public class GlobalControl : MonoBehaviour
     private float water = 100f;
     private float air = 100f;
     private float forrest = 100f;
+    private bool  tutorialDisplay = true;
 
     void Awake()
     {
@@ -42,5 +43,15 @@ public class GlobalControl : MonoBehaviour
     public float getForrest()
     {
         return Instance.forrest;
+    }
+
+    public void turnOffTutorial()
+    {
+        Instance.tutorialDisplay = false;
+    }
+
+    public bool getTutorial()
+    {
+        return Instance.tutorialDisplay;
     }
 }
