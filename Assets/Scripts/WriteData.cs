@@ -12,7 +12,7 @@ public class WriteData : MonoBehaviour
     void Start()
     {
         //create file
-        path = "./Data/PlayerData.csv";
+        path = Path.Combine(Application.streamingAssetsPath, "PlayerData.csv");
         if (!File.Exists(path))
         {
             using(FileStream fs = File.Create(path))
